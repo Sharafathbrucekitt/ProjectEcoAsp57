@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style >
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.edit-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+</style>
+<body>
+    <div class="profile-container">
+        <h2>Your Profile</h2>
+        <div class="profile-card">
+            <h3 id="userName"></h3> <!-- Will display username -->
+            <p><strong>Email:</strong> <span id="userEmail"></span></p> <!-- Will display email -->
+            <button class="edit-button" onclick="editProfile()">Edit Profile</button>
+        </div>
+    </div>
+
+    <script>
+        // Retrieve user information from local storage
+        document.getElementById('userName').textContent = localStorage.getItem('username') || 'Guest';
+        document.getElementById('userEmail').textContent = localStorage.getItem('email') || 'Not provided';
+
+        function editProfile() {
+            alert("Edit profile functionality not implemented."); // Placeholder for edit functionality
+        }
+    </script>
+</body>
+</html>
