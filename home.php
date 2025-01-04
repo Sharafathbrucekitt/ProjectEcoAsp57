@@ -88,11 +88,11 @@ header {
             
         }
         footer {
-            color: white;
+            color: black;
             text-align: center;
         }
         footer a {
-            color: #702616;
+            color: black;
             margin:  10px;
             text-decoration: none;
         }
@@ -104,20 +104,33 @@ header {
     <h1>Eco Friendly Market Place</h1>
 <nav>
 
-       <a href="collection.php"  style="color: 
+       <a href="collection.html"  style="color: 
 #702616;margin:15px;">Collection</a>
 	
-	<a href="about.php" style="color: 
+	<a href="about.html" style="color: 
 #702616; margin:15px;">About</a>
 
-        <a href="contact.php" style="color:
+        <a href="contact.html" style="color:
 #702616; margin:15px;">Contact</a>
 
-
+ <a href="login.html"  style="color: 
+#702616;margin:15px;">Login</a>
     
-    <a href="profile.html" style="color: 
-#702616; margin:  15px;">Your Profile</a>
 </nav>
+<script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+
+            // Store user information in local storage
+            localStorage.setItem('username', username);
+            localStorage.setItem('email', email);
+
+            // Redirect to profile page
+            window.location.href = 'profile.html';
+        });
+    </script>
 
 
 <div class="content">
@@ -126,10 +139,16 @@ header {
  <div class="slide-in">
         
 <nav>
-    <a href="collections.php" style="color: red;">HurryUp! For the ontime Offers</a>  
+    <a href="collections.html" style="color: red;">HurryUp! For the ontime Offers</a>  
 </nav>
 </form>
-            
+            <script>
+                function redirectToShowcase(event) {
+                    event.preventDefault(); 
+                    window.location.href = "collection.html"; // Redirect to the showcase page
+                }
+            </script>
+
 
     </div></h1>
     </div>

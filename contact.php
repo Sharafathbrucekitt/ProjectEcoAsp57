@@ -94,11 +94,11 @@
 <header>
     <h1>Contact</h1>
 <nav>
-        <a href="home.html" style="color: white; margin: 0 15px;">Home</a>
-        <a href="collections.html" style="color: white; margin: 0 15px;">Collection</a>
-	<a href="login.html" style="color: white; margin: 0 15px;">Login</a>
+        <a href="home.php" style="color: white; margin: 0 15px;">Home</a>
+        <a href="collections.php" style="color: white; margin: 0 15px;">Collection</a>
+	<a href="login.php" style="color: white; margin: 0 15px;">Login</a>
 	
-	<a href="about.html" style="color: white; margin: 0 15px;">About</a>
+	<a href="about.php" style="color: white; margin: 0 15px;">About</a>
     </nav> 
 
 

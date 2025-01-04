@@ -28,7 +28,6 @@
             
          }
    
-
           nav a {
             color: white;
             margin:  15px;
@@ -50,11 +49,7 @@
             text-transform: uppercase;
             border-bottom: 2px solid #1A237E;
             padding-bottom: 20px;
-         
-
-       
          }
-
          
         .product {
             border: 3px solid #1A237E;;
@@ -114,13 +109,13 @@
 <header>
     <h1>Eco Friendly Collections</h1>
     <nav>
-        <a href="home.html" style="color:
+        <a href="home.php" style="color:
 #702616 ; margin: 0 35px;">Home</a>
-        <a href="collections.html" style="color: 
+        <a href="collections.php" style="color: 
 #702616; margin: 0 35px;">Collection</a>
-    <a href="login.html" style="color: 
+    <a href="login.php" style="color: 
 #702616; margin: 0 35px;">Login</a> 
-        <a href="contact.html" style="color:
+        <a href="contact.php" style="color:
 #702616; margin: 0 35px;">Contact</a>
     </nav> 
 

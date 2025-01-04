@@ -63,11 +63,11 @@
     <h5><span style="color:#0c4a04;">Your one-stop online platform for sustainable and eco-friendly products!</span></h5>
 
  <nav>
-        <a href="home.html" style="color:
+        <a href="home.php" style="color:
 #702616 ; margin: 0 35px;">Home</a>
         <a href="collections.php" style="color: 
 #702616; margin: 0 35px;">Collection</a>
-	<a href="login.html" style="color: 
+	<a href="login.php" style="color: 
 #702616; margin: 0 35px;">Login</a>	
         <a href="contact.php" style="color:
 #702616; margin: 0 35px;">Contact</a>
